@@ -21,7 +21,7 @@ C#.NET 6.0
 # Restore or Import Data-Tier Application
 BETSoftware.Data project  
 Folder: Database  
-Filename: betsoftware.bacpac  
+Filename: BET.bacpac  
 # Database Schema:  
 Products -> Stores products data  
 Orders -> Stores orders data  
