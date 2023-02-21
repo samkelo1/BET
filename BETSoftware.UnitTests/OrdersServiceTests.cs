@@ -70,7 +70,7 @@ namespace BETSoftware.UnitTests
             {
                 Active = true,
                 CustomerId = user.Id,
-                ShippingAddress = "10 Maliza Place, Mbuqe Extension, Mthatha, 5099",
+                ShippingAddress = "62 beacon Rd, Florida North, Roodepoort,1709",
                 ShippingRequired = true,
                 ShippingTax = 14.00M,
                 TotalAmount = 245.00M,
@@ -110,7 +110,7 @@ namespace BETSoftware.UnitTests
             {
                 Active = true,
                 CustomerId = user.Id,
-                ShippingAddress = "10 Maliza Place, Mbuqe Extension, Mthatha, 5099",
+                ShippingAddress = "62 beacon Rd, Florida North, Roodepoort,1709",
                 ShippingRequired = true,
                 ShippingTax = 14.00M,
                 TotalAmount = 245.00M,
@@ -188,9 +188,9 @@ namespace BETSoftware.UnitTests
         {
             var loginDetail = new LoginInDto
             {
-                EmailAddress = "user@somedomain.com",
-                Password = "password@12321",
-                Username = "mtyide"
+                EmailAddress = "samke704@gmail.com",
+                Password = "Siyabonga1#",
+                Username = "Siyabonga1#"
             };
             var login = _mapper.Map<Login>(loginDetail);
             await _loginService.Create(login);
